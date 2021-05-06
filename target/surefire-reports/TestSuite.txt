@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 3, Time elapsed: 5.228 sec <<< FAILURE! - in TestSuite
+Given I have list of Car Registration Numbers in the "src/test/resources/testdata/car_input.txt"(| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |)  Time elapsed: 0.012 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001020a3e99 chromedriver + 4808345
+1   chromedriver                        0x000000010203e5f3 chromedriver + 4392435
+2   chromedriver                        0x0000000101cca29d chromedriver + 770717
+3   chromedriver                        0x0000000101c27689 chromedriver + 104073
+4   chromedriver                        0x0000000101c23940 chromedriver + 88384
+5   chromedriver                        0x0000000101c20c99 chromedriver + 76953
+6   chromedriver                        0x0000000101c52fa3 chromedriver + 282531
+7   chromedriver                        0x0000000101c4fda3 chromedriver + 269731
+8   chromedriver                        0x0000000101c298dd chromedriver + 112861
+9   chromedriver                        0x0000000101c2a875 chromedriver + 116853
+10  chromedriver                        0x000000010206647f chromedriver + 4555903
+11  chromedriver                        0x000000010207377a chromedriver + 4609914
+12  chromedriver                        0x0000000102073509 chromedriver + 4609289
+13  chromedriver                        0x000000010204a319 chromedriver + 4440857
+14  chromedriver                        0x0000000102073d03 chromedriver + 4611331
+15  chromedriver                        0x000000010205c083 chromedriver + 4513923
+16  chromedriver                        0x000000010208a454 chromedriver + 4703316
+17  chromedriver                        0x00000001020a9f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+
+| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |  Time elapsed: 0.014 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001020a3e99 chromedriver + 4808345
+1   chromedriver                        0x000000010203e5f3 chromedriver + 4392435
+2   chromedriver                        0x0000000101cca29d chromedriver + 770717
+3   chromedriver                        0x0000000101c27689 chromedriver + 104073
+4   chromedriver                        0x0000000101c23940 chromedriver + 88384
+5   chromedriver                        0x0000000101c20c99 chromedriver + 76953
+6   chromedriver                        0x0000000101c52fa3 chromedriver + 282531
+7   chromedriver                        0x0000000101c4fda3 chromedriver + 269731
+8   chromedriver                        0x0000000101c298dd chromedriver + 112861
+9   chromedriver                        0x0000000101c2a875 chromedriver + 116853
+10  chromedriver                        0x000000010206647f chromedriver + 4555903
+11  chromedriver                        0x000000010207377a chromedriver + 4609914
+12  chromedriver                        0x0000000102073509 chromedriver + 4609289
+13  chromedriver                        0x000000010204a319 chromedriver + 4440857
+14  chromedriver                        0x0000000102073d03 chromedriver + 4611331
+15  chromedriver                        0x000000010205c083 chromedriver + 4513923
+16  chromedriver                        0x000000010208a454 chromedriver + 4703316
+17  chromedriver                        0x00000001020a9f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+
+| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |  Time elapsed: 1.535 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010172ce99 chromedriver + 4808345
+1   chromedriver                        0x00000001016c75f3 chromedriver + 4392435
+2   chromedriver                        0x000000010135329d chromedriver + 770717
+3   chromedriver                        0x00000001012b0689 chromedriver + 104073
+4   chromedriver                        0x00000001012ac940 chromedriver + 88384
+5   chromedriver                        0x00000001012a9c99 chromedriver + 76953
+6   chromedriver                        0x00000001012dbfa3 chromedriver + 282531
+7   chromedriver                        0x00000001012d8da3 chromedriver + 269731
+8   chromedriver                        0x00000001012b28dd chromedriver + 112861
+9   chromedriver                        0x00000001012b3875 chromedriver + 116853
+10  chromedriver                        0x00000001016ef47f chromedriver + 4555903
+11  chromedriver                        0x00000001016fc77a chromedriver + 4609914
+12  chromedriver                        0x00000001016fc509 chromedriver + 4609289
+13  chromedriver                        0x00000001016d3319 chromedriver + 4440857
+14  chromedriver                        0x00000001016fcd03 chromedriver + 4611331
+15  chromedriver                        0x00000001016e5083 chromedriver + 4513923
+16  chromedriver                        0x0000000101713454 chromedriver + 4703316
+17  chromedriver                        0x0000000101732f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+

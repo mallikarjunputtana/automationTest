@@ -1,6 +1,7 @@
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/pageobjects/FullVehicleDetailsPage.java
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/stepdefinitions/WebDriverSingleton.java
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/pageobjects/CarTaxCheckLandingPage.java
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/stepdefinitions/TestUtils.java
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/stepdefinitions/TestStepDefinitions.java
-/Users/mallikarjunputtana/Downloads/AutomationTest/src/test/java/com/stepdefinitions/CsvReading.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/stepdefinitions/TestStepDefinitions.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/stepdefinitions/CsvReading.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/TestSuite.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/stepdefinitions/WebDriverSingleton.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/pageobjects/CarTaxCheckLandingPage.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/stepdefinitions/TestUtils.java
+/Users/mallikarjunputtana/My Business/automationTest/src/test/java/pageobjects/FullVehicleDetailsPage.java

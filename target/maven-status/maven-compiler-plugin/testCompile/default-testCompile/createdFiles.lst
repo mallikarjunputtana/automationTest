@@ -1,6 +1,7 @@
-com/stepdefinitions/TestStepDefinitions.class
-com/stepdefinitions/TestUtils.class
-com/pageobjects/CarTaxCheckLandingPage.class
-com/stepdefinitions/CsvReading.class
-com/pageobjects/FullVehicleDetailsPage.class
-com/stepdefinitions/WebDriverSingleton.class
+stepdefinitions/CsvReading.class
+stepdefinitions/WebDriverSingleton.class
+stepdefinitions/TestUtils.class
+pageobjects/FullVehicleDetailsPage.class
+TestSuite.class
+stepdefinitions/TestStepDefinitions.class
+pageobjects/CarTaxCheckLandingPage.class

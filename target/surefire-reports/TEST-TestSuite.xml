@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.228" tests="6" errors="3" skipped="3" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mallikarjunputtana/My Business/automationTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mallikarjunputtana/My Business/automationTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/03/dkt378h105s9h9zl9dbbf1n00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/mallikarjunputtana/Downloads/apache-maven-3.8.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mallikarjunputtana/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/mallikarjunputtana/Downloads/apache-maven-3.8.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="library.jansi.path" value="/Users/mallikarjunputtana/Downloads/apache-maven-3.8.1/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mallikarjunputtana"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="mallikarjunputtana"/>
+    <property name="java.class.path" value="/Users/mallikarjunputtana/Downloads/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/mallikarjunputtana/Downloads/apache-maven-3.8.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given I have list of Car Registration Numbers in the &quot;src/test/resources/testdata/car_input.txt&quot;" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="0.012">
+    <error message="Failed to instantiate class stepdefinitions.TestStepDefinitions" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001020a3e99 chromedriver + 4808345
+1   chromedriver                        0x000000010203e5f3 chromedriver + 4392435
+2   chromedriver                        0x0000000101cca29d chromedriver + 770717
+3   chromedriver                        0x0000000101c27689 chromedriver + 104073
+4   chromedriver                        0x0000000101c23940 chromedriver + 88384
+5   chromedriver                        0x0000000101c20c99 chromedriver + 76953
+6   chromedriver                        0x0000000101c52fa3 chromedriver + 282531
+7   chromedriver                        0x0000000101c4fda3 chromedriver + 269731
+8   chromedriver                        0x0000000101c298dd chromedriver + 112861
+9   chromedriver                        0x0000000101c2a875 chromedriver + 116853
+10  chromedriver                        0x000000010206647f chromedriver + 4555903
+11  chromedriver                        0x000000010207377a chromedriver + 4609914
+12  chromedriver                        0x0000000102073509 chromedriver + 4609289
+13  chromedriver                        0x000000010204a319 chromedriver + 4440857
+14  chromedriver                        0x0000000102073d03 chromedriver + 4611331
+15  chromedriver                        0x000000010205c083 chromedriver + 4513923
+16  chromedriver                        0x000000010208a454 chromedriver + 4703316
+17  chromedriver                        0x00000001020a9f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+</error>
+    <system-out><![CDATA[Feature: Car Details Check feature
+
+  @test
+  Scenario Outline: Verify Vehicle details                              &amp#27;[90m# Assignment.feature:4&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI have list of Car Registration Numbers in the "<input_file>"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI have expected car details are there in the "<output_file>"&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI check car details in the cartax check website&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mActual vehicle details are verified with expected details&amp#27;[0m
+
+    Examples: 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 30347
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1620314591.048][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="0.014">
+    <error message="Failed to instantiate class stepdefinitions.TestStepDefinitions" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x00000001020a3e99 chromedriver + 4808345
+1   chromedriver                        0x000000010203e5f3 chromedriver + 4392435
+2   chromedriver                        0x0000000101cca29d chromedriver + 770717
+3   chromedriver                        0x0000000101c27689 chromedriver + 104073
+4   chromedriver                        0x0000000101c23940 chromedriver + 88384
+5   chromedriver                        0x0000000101c20c99 chromedriver + 76953
+6   chromedriver                        0x0000000101c52fa3 chromedriver + 282531
+7   chromedriver                        0x0000000101c4fda3 chromedriver + 269731
+8   chromedriver                        0x0000000101c298dd chromedriver + 112861
+9   chromedriver                        0x0000000101c2a875 chromedriver + 116853
+10  chromedriver                        0x000000010206647f chromedriver + 4555903
+11  chromedriver                        0x000000010207377a chromedriver + 4609914
+12  chromedriver                        0x0000000102073509 chromedriver + 4609289
+13  chromedriver                        0x000000010204a319 chromedriver + 4440857
+14  chromedriver                        0x0000000102073d03 chromedriver + 4611331
+15  chromedriver                        0x000000010205c083 chromedriver + 4513923
+16  chromedriver                        0x000000010208a454 chromedriver + 4703316
+17  chromedriver                        0x00000001020a9f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+</error>
+  </testcase>
+  <testcase name="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="1.535">
+    <error message="Failed to instantiate class stepdefinitions.TestStepDefinitions" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class stepdefinitions.TestStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mallikarjuns-MacBook-Pro.local', ip: 'fdea:2c1b:8552:1:48eb:af70:c408:f060%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.8'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010172ce99 chromedriver + 4808345
+1   chromedriver                        0x00000001016c75f3 chromedriver + 4392435
+2   chromedriver                        0x000000010135329d chromedriver + 770717
+3   chromedriver                        0x00000001012b0689 chromedriver + 104073
+4   chromedriver                        0x00000001012ac940 chromedriver + 88384
+5   chromedriver                        0x00000001012a9c99 chromedriver + 76953
+6   chromedriver                        0x00000001012dbfa3 chromedriver + 282531
+7   chromedriver                        0x00000001012d8da3 chromedriver + 269731
+8   chromedriver                        0x00000001012b28dd chromedriver + 112861
+9   chromedriver                        0x00000001012b3875 chromedriver + 116853
+10  chromedriver                        0x00000001016ef47f chromedriver + 4555903
+11  chromedriver                        0x00000001016fc77a chromedriver + 4609914
+12  chromedriver                        0x00000001016fc509 chromedriver + 4609289
+13  chromedriver                        0x00000001016d3319 chromedriver + 4440857
+14  chromedriver                        0x00000001016fcd03 chromedriver + 4611331
+15  chromedriver                        0x00000001016e5083 chromedriver + 4513923
+16  chromedriver                        0x0000000101713454 chromedriver + 4703316
+17  chromedriver                        0x0000000101732f57 chromedriver + 4833111
+18  libsystem_pthread.dylib             0x00007fff6f172661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff6f17250d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff6f171bf9 thread_start + 13
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7608
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDr[i16ver was started suc203cessfully.
+14593.419][WARNING]: FromSockAddr failed on netmask
+]]></system-err>
+  </testcase>
+  <testcase name="And I have expected car details are there in the &quot;src/test/resources/testdata/car_output.txt&quot;" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I check car details in the cartax check website" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Actual vehicle details are verified with expected details" classname="| src/test/resources/testdata/car_input.txt | src/test/resources/testdata/car_output.txt |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
